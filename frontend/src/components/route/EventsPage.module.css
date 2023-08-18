@@ -1,0 +1,17 @@
+li a {
+    color: gold;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
