@@ -9,7 +9,7 @@ const EventDetailPage = () => {
     return (
         <div className={classes['event-detail']}>
         <h1>{param.id}</h1>
-        <button><Link to={".."} relative="path">Back</Link></button>
+        <button><Link to={".."} relative="route">Back</Link></button>
         </div>
     )
 };
